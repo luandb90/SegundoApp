@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorblack"
+    android:paddingTop="110dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context="br.senac.sp.l13.segundoapp.RegistrarActivity">
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorgrey"
+        android:hint="@string/fullname"
+        android:inputType="textAutoComplete"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButton"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorgrey"
+        android:hint="@string/name"
+        android:inputType="textAutoComplete"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButton"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorgrey"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButton"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorpink"
+        android:text="@string/login"
+        android:textColor="@color/colorButton"
+        android:layout_marginBottom="40dp"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/already_registred"
+        android:textColor="@color/colorButton"
+        android:paddingLeft="95dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+
+
+        />
+
+</LinearLayout>

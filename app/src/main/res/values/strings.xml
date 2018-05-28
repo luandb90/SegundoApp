@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SegundoApp</string>
+    <string name="email">Email</string>
+
+    <string name="not_a_member_sign_up_now">Not a member? Sign up now.</string>
+    <string name="fullname">Fullname</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_member">Not a member? Sign up now.</string>
+    <string name="already_registred">Already registred! Login me.</string>
+</resources>
